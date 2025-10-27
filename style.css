@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*  Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 15px 40px;
+  font-family: 'Mulish', sans-serif;
+}
+
+/*  Logo */
+.logo img {
+  width: 120px;
+  height: auto;
+}
+
+/*  Navigation Menu */
+ul {
+  display: flex;
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  margin-inline: 25px;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+ul li a:hover {
+  border-bottom: 2px solid white;
+  color: rgb(9, 102, 216);
+  cursor: pointer;
+}
+
+/*  Main Section */
+.main-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(31, 29, 29);
+  color: white;
+  padding: 60px 40px;
+  font-family: 'Mulish', sans-serif;
+}
+
+/*  Heading Content */
+.heading {
+  max-width: 45%;
+}
+
+.heading h1 {
+  font-size: 52px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.heading p {
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
+/*  Button */
+button {
+  width: 170px;
+  height: 46px;
+  background-color: rgb(68, 201, 246);
+  color: white;
+  font-size: 18px;
+  font-family: 'Mulish', sans-serif;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  border: 2px solid rgb(68, 201, 246);
+  background-color: transparent;
+  color: rgb(68, 201, 246);
+  transform: scale(1.05);
+}
+
+/*  Image */
+.main-page img {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+}
